@@ -52,7 +52,7 @@ async function fetchVersion() {
 
 cmd({
     pattern: "usermenu",
-    desc: "subzero menu",
+    desc: "huseyn menu",
     alias: "help",
     category: "menu",
     react: "✅",
@@ -74,7 +74,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
        \`\`\`${config.BOT_NAME}\`\`\`
     
 ⟣──────────────────⟢
-▧ *ᴄʀᴇᴀᴛᴏʀ* : *ᴍʀ ғʀᴀɴᴋ (🇿🇼)*
+▧ *ᴄʀᴇᴀᴛᴏʀ* : *ᴍʀ 卄ㄩ丂乇ㄚ几 (🇦🇿)*
 ▧ *ᴍᴏᴅᴇ* : *${config.MODE}* 
 ▧ *ᴘʀᴇғɪx* : *${config.PREFIX}*
 ▧ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB 
@@ -85,7 +85,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 ⟣──────────────────⟢
 
-> ＳＵＢＺＥＲＯ - ＭＤ- ＢＯＴ
+> H U S E Y N -U S E R ＢＯＴ
 
 ⟣──────────────────⟢
 ${readMore}
@@ -93,14 +93,14 @@ ${readMore}
 ... [Rest of the menu content remains unchanged] ...
 
 *━━━━━━━━━━━━━━━━━━━━*⁠⁠⁠⁠
-> ＭＡＤＥ ＢＹ ＭＲ ＦＲＡＮＫ
+> ＭＡＤＥ ＢＹ ＭＲ H U S E Y N
 *━━━━━━━━━━━━━━━━━━━━━*
 `;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/WpQLCg85/White-and-Green-Simple-Professional-Business-Project-Presentation.jpg` },
+                image: { url: `https://i.postimg.cc/tJJ1jwyY/IMG-1944.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -108,7 +108,7 @@ ${readMore}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: '📑『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』📑',
+                        newsletterName: '📑『 𝐇𝐔𝐒𝐄𝐘𝐍 𝐌𝐃 』📑',
                         serverMessageId: 143
                     }
                 }
