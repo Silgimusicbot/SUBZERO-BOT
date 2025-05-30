@@ -230,7 +230,7 @@ cmd(
     {
         pattern: 'take',
         alias: ['rename', 'stake'],
-        desc: 'Create a sticker with a custom pack name.',
+        desc: 'Sticker paketi yaradır.',
         category: 'sticker',
         use: '<reply media or URL>',
         filename: __filename,
@@ -255,7 +255,7 @@ cmd(
             const buffer = await sticker.toBuffer();
             return conn.sendMessage(mek.chat, { sticker: buffer }, { quoted: mek });
         } else {
-            return reply("*Uhh, Please reply to an image.*");
+            return reply("*Off🤦🏻‍♂️, Şəkilə cavab ver*");
         }
     }
 );
@@ -267,15 +267,15 @@ cmd(
         pattern: 'sticker',
         react: '🚀',
         alias: ['s', 'stickergif'],
-        desc: 'Create a sticker from an image, video, or URL.',
+        desc: 'Şəkildən, videodan və linkdən sticker düzəldir',
         category: 'sticker',
-        use: '<reply media or URL>',
+        use: '<mediaya və ya linkə cavab ver>',
         filename: __filename,
     },
     async (conn, mek, m, { quoted, args, q, reply, from }) => {
-        if (!mek.quoted) return reply(`*Reply to any Image or Video, Sir.*`);
+        if (!mek.quoted) return reply(`*Hər hansı bir şəkilə vəya videoya cavab verdəə*`);
         let mime = mek.quoted.mtype;
-        let pack = Config.STICKER_NAME || "Mr Frank OFC";
+        let pack = Config.STICKER_NAME || "Mr Huseyn";
         
         if (mime === "imageMessage" || mime === "stickerMessage") {
             let media = await mek.quoted.download();
@@ -290,7 +290,7 @@ cmd(
             const buffer = await sticker.toBuffer();
             return conn.sendMessage(mek.chat, { sticker: buffer }, { quoted: mek });
         } else {
-            return reply("*Uhh, Please reply to an image.*");
+            return reply("*Off, Xaiş edirəm şəkilə cavab ver day*");
         }
     }
 );
