@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~YaFJfkSqEohPFQzLfUZW",
 // add your Session Id 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true or false status auto seen
@@ -15,7 +15,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY SUBZERO�
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "҉hU҉S҉E҉Y҉N҉ ",
+BOT_NAME: process.env.BOT_NAME || "HUS҉E҉Y҉N҉ ",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "HUSEYN-MD",
 // type sticker pack name 
@@ -25,13 +25,13 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "994502529272",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "Mr Frank",
+OWNER_NAME: process.env.OWNER_NAME || "Mr Huseyn",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ Huseyn*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/zv76KffW/IMG-20250115-WA0020.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/x8gTYdpG/9712868-E-03-D7-46-BE-B7-A7-36-E3310-D9-DFA.png",
 // add img for alive msg
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -41,7 +41,7 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-ANTI_LINK: process.env.ANTI_LINK || "true",
+ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
@@ -55,11 +55,11 @@ PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
-DEV: process.env.DEV || "263719647303",
+DEV: process.env.DEV || "994502529272",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
-DEVELOPER_NUMBER: '263719647303@s.whatsapp.net', // Developer's number
+DEVELOPER_NUMBER: '994502529272@s.whatsapp.net', // Developer's number
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
